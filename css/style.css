@@ -1,0 +1,141 @@
+
+/* General style of the page */
+
+/*  Bg-solor: #0475ba*/
+
+body, h1, h2, h3, p{
+    margin: 0;
+}
+
+.primary-block{
+    background: #0475ba;
+    color:#fff;
+}
+
+.primary-block a:link, .primary-block a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+
+.primary-block a:hover{
+    text-decoration: none;
+    color: orange;
+    border-bottom: white 0.1px solid;
+}
+
+.secondary-block h3, .secondary-block h2{
+    color:  #0475ba;
+}
+#experiences{
+    max-width: 750px;
+    margin: auto;
+}
+
+i {
+    margin-right: 5px;
+}
+nav{
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px;
+    position: sticky;
+    top: 0;
+}
+
+#menu{
+    display: none;
+}
+
+header, section, footer {
+    padding: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+/* 
+    Style of the header 
+*/
+
+header{
+    text-align: center;
+}
+
+header h2{
+    padding: 16px;
+}
+
+header img{
+    border-radius: 50%;
+    z-index: 2;
+}
+header img:hover{
+    border-radius: 5%;
+}
+/* 
+    End of header style 
+*/
+
+
+/* 
+    style of the sections 
+*/
+
+section h3{
+    text-align: center;
+}
+
+.experience-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-with-point{
+    list-style: disc;
+}
+
+/* 
+    End of sections style 
+*/
+
+/* 
+    End of footer style 
+*/
+
+@media (min-width: 768px) {
+    #menu{
+        display: block;
+    }
+
+    #menu ul{
+        display: flex;
+    }
+
+    #menu ul li{
+        margin: 0 8px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #header-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #footer-links{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    #experiences h3{
+        text-align: left;
+    }
+}
