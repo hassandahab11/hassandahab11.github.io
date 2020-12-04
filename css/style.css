@@ -69,11 +69,11 @@ header h2{
 }
 
 header img{
-    border-radius: 50%;
+    border-radius: 75%;
     z-index: 2;
 }
 header img:hover{
-    border-radius: 5%;
+    border-radius: 25%;
 }
 /* 
     End of header style 
