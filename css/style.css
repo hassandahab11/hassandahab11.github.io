@@ -11,6 +11,9 @@ body, h1, h2, h3, p{
     background: #0475ba;
     color:#fff;
 }
+#exp1{
+    margin-bottom: 30px;
+}
 
 .primary-block a:link, .primary-block a:visited {
     text-decoration: none;
@@ -26,7 +29,7 @@ body, h1, h2, h3, p{
 .secondary-block h3, .secondary-block h2{
     color:  #0475ba;
 }
-#experiences{
+.experiences{
     max-width: 750px;
     margin: auto;
 }
@@ -96,7 +99,17 @@ section h3{
 .list-with-point{
     list-style: disc;
 }
+.experiences div div ul li a{
+    color: blue;
+}
 
+.experiences div div ul li a:hover{
+    color: green;
+}
+.experiences div div ul li a:active{
+    color: red;
+
+} 
 /* 
     End of sections style 
 */
@@ -135,7 +148,7 @@ section h3{
         width: 50%;
     }
 
-    #experiences h3{
+    .experiences h3{
         text-align: left;
     }
 }

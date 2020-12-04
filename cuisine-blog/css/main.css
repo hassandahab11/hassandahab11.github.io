@@ -1,0 +1,43 @@
+#section div h4, .media{
+    font-family: 'Courgette', cursive;
+
+}
+
+nav div a{
+    color: #ffff;
+}
+nav div a:hover{
+    color: azure;
+    border-bottom: bisque 0.5px solid;
+}
+#multimedia .fab{
+    background-color: #ffff;
+}
+#multimedia i{
+    padding: 5px;
+}
+.height{
+    height: 200px;
+}
+.white{
+    color: #fff;
+}
+footer div ul li{
+    list-style: none;
+}
+footer div ul li a{
+    color: #ffff;
+    text-decoration: #ffff;
+}
+footer div ul li a:hover{
+    color: #ffff;
+    text-decoration: blue;
+}
+#nav1{
+    padding-left: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#footer-div{
+    height: auto;
+}

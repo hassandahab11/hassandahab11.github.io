@@ -1,0 +1,26 @@
+.img-team{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+
+}
+.div-padding{
+    padding-top: 25px;
+}
+.tony{
+    padding-left: 50px;
+}
+#img{
+    display: none;
+}
+#dark{
+    height: 300px;
+}
+#dark .h23{
+    padding-top: 75px;
+}

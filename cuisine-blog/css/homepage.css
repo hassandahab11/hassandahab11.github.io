@@ -1,0 +1,35 @@
+/* font-family: 'Courgette', cursive;
+font-family: 'Oswald', sans-serif;
+
+*/
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+#paragraph div{
+    padding-bottom: 10px ;
+}
+nav{
+    border-bottom: 0.1px solid #ffff;
+}
+
+#img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.row h2, h3{
+    color: #ffff;
+    font-family: 'Courgette', cursive;
+
+
+}
+.img-article{
+    width: 200px;
+    height: 150px;
+}
+#title{
+    color: black;
+}

@@ -1,0 +1,28 @@
+
+#card{
+    height: 300px;
+
+}
+#card-txt{
+    padding-top: 100px;
+}
+#conclusion{
+    color: #000;
+}
+#anti2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.fourch{
+    width: 100px;
+}
+.fourchette{
+    background: rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
