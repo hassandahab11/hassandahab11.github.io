@@ -1,0 +1,58 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Courgette', cursive;
+
+ */
+
+
+header{
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,255,0.9)), url('./img/pexels-pixabay-247791.jpg') no-repeat center;
+    height: 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.ffamily{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.courfamily{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+
+}
+.bar{
+    border-bottom: #fff solid 0.5px;
+}
+
+#navbarNav ul li a:hover{
+    color: white;
+    border-bottom: 0.1px solid white;
+}
+.color{
+    color: white;
+    background-color: blue;
+}
+.colorpro{
+    background-color: white;
+    color: blue;
+}
+
+#présentation .prph, #mes-projects{
+    height: 100px;
+    margin-top: 50px;
+   
+}
+#formations{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.list{
+    list-style: none;
+}
