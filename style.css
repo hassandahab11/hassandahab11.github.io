@@ -5,11 +5,17 @@ font-family: 'Courgette', cursive;
 
 
 header{
-    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,255,0.9)), url('./img/pexels-pixabay-247791.jpg') no-repeat center;
+    background: linear-gradient(0deg,rgba(0,0,0,0.6),rgba(135, 206, 250, 0.9)), url('./img/pexels-pixabay-247791.jpg') no-repeat center;
     height: 100%;
     background-size: cover;
     color: #fff;
 }
+.ftr{
+background-color: #87CEFA;
+}
+/* #présentation{
+    background: linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+} */
 
 #logo{
     width: 200px;
@@ -36,7 +42,7 @@ header{
 }
 .color{
     color: white;
-    background-color: blue;
+    background-color: #87CEFA;
 }
 .colorpro{
     background-color: white;
