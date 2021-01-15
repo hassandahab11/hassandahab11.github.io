@@ -32,6 +32,15 @@ background-color: #87CEFA;
     font-size: 35px;
 
 }
+#icons .i{
+    margin-left: 10px;
+}
+
+#icons .fab{
+    width: 60px;
+    height: 40px;
+    color: #87CEFA;
+}
 .bar{
     border-bottom: #fff solid 0.5px;
 }
